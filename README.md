@@ -7,3 +7,5 @@
   - Runs for 5 iterations and shared by 2 user that is only 5 iteration will be performed and randomly and user could 
   run in those iterations which means if there are 1 API call within the test it will be called 5 times.
   - Every user is isolated with other.
+  - `k6 run -u 10 -d 30s <filename>.js`
+  - 10 virtual users over the course of 30s.
